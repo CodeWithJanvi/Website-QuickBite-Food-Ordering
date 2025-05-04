@@ -33,5 +33,4 @@ QuickBite is a web-based food ordering system developed using PHP and MySQL. It 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YourUsername/Website-QuickBite-Food-Ordering.git
-
+https://github.com/CodeWithJanvi/Website-QuickBite-Food-Ordering.git
