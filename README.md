@@ -1,2 +1,37 @@
-# Website-QuickBite-Food-Ordering
-QuickBite is a PHP-based online food ordering system where customers can browse food items and place orders, while the admin can manage categories, food items, and orders through an easy-to-use dashboard.
+# QuickBite - Online Food Ordering System 🍔🍕
+
+QuickBite is a web-based food ordering system developed using PHP and MySQL. It allows customers to browse food items, place orders, and allows administrators to manage the entire food menu, categories, and orders.
+
+---
+
+## 🔥 Features
+
+### 🧑‍💻 Admin Panel
+- Add, update, and delete food categories
+- Add, update, and delete food items
+- View and manage customer orders
+- Set food item as Featured or Active
+- Upload food images
+
+### 👤 User Panel
+- View all available food categories
+- Browse and search for food items
+- Place food orders directly from the menu
+- View order confirmation
+
+---
+
+## 🛠️ Technologies Used
+- **Frontend**: HTML, CSS, Bootstrap
+- **Backend**: PHP
+- **Database**: MySQL
+- **Web Server**: XAMPP
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YourUsername/Website-QuickBite-Food-Ordering.git
+
