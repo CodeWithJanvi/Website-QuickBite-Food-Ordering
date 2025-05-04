@@ -1,0 +1,343 @@
+/* ===== Reset default styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== Wrapper ===== */
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ===== Utility classes ===== */
+.text-center {
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* ===== MENU STYLES ===== */
+.menu {
+  background-color: #FF7F50; /* Coral background to match the footer */
+  padding: 10px 0; /* Similar padding as footer */
+  text-align: center;
+  font-size: 18px; /* Font size to match footer */
+  color: white; /* White text */
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white; /* Text color matches footer */
+  font-size: 18px; /* Same font size as footer */
+  font-weight: bold;
+  text-transform: capitalize;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: #f0e68c; /* Light highlight on hover, like footer */
+  border-bottom: 2px solid #cd5c5c;
+  text-transform: none;
+}
+
+/* ===== MAIN CONTENT ===== */
+.main {
+  background-color: #fafafa;
+  padding: 40px 15px;
+  min-height: 400px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+h2 {
+  font-size: 1.8em;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+/* ===== Form styling ===== */
+form {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+form input, form button {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1.1em;
+}
+
+form button {
+  background-color: #ff4500;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #dc143c;
+}
+
+/* ===== Footer Styling ===== */
+.footer {
+  background-color: #FF7F50; /* Coral background */
+  padding: 6px 0; /* Smaller vertical padding */
+  font-size: 16px; /* Slightly smaller text */
+  color: white; /* White text */
+  text-align: center;
+}
+
+.footer a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #f0e68c; /* Light highlight on hover (wheat-like) */
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1;
+  margin: 0 20px;
+  min-width: 250px;
+}
+
+.footer-about h4,
+.footer-links h4,
+.footer-contact h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 15px;
+  font-size: 19px;
+  color:white;
+}
+
+/* ===== Table Styling ===== */
+table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  border: 2px solid #ff7f50;
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+  background-color: #ff7f50;
+}
+
+table thead th {
+  background-color: #ff7f50;
+  color: #ffffff !important;
+  padding: 16px 20px;
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ffa07a;
+  white-space: nowrap;
+}
+
+table thead th:last-child {
+  border-right: none;
+}
+
+table tbody tr {
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+
+table tbody tr:hover {
+  background-color: #fff5f0;
+}
+
+table tbody td {
+  padding: 16px;
+  font-size: 16px;
+  color: #333;
+  border-right: 1px solid #ffe4e1;
+}
+
+table tbody td:last-child {
+  border-right: none;
+}
+
+table tbody td a {
+  color: #ff4500;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+table tbody td a:hover {
+  color: #dc143c;
+  text-decoration: underline;
+}
+
+/* ===== Flex layout for action buttons ===== */
+.table-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ===== Action Buttons ===== */
+.action-buttons {
+  text-align: center;
+}
+
+.action-buttons a {
+  color: white;
+  background-color: #ff7f50;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.action-buttons a:hover {
+  background-color: #dc143c;
+  transform: translateY(-2px);
+}
+
+.action-buttons a:active {
+  background-color: #cc0000;
+  transform: translateY(0);
+}
+
+/* ===== Success Message ===== */
+.success-message {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.success-message p {
+  margin: 0;
+  font-weight: bold;
+}
+
+/* ===== Admin Column Box ===== */
+.col-4 {
+  width: 22%;
+  background-color: white;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  float: left;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.col-4:hover {
+  transform: translateY(-5px);
+}
+
+/* ===== Responsive Styles ===== */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 95%;
+  }
+
+  form input, form button {
+    width: 100%;
+  }
+
+  table thead th, table tbody td {
+    padding: 12px 10px;
+    font-size: 14px;
+  }
+
+  .col-4 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  .action-buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu ul li {
+    display: block; /* Stack the menu items vertically for small screens */
+    margin: 10px 0;
+  }
+
+  .menu {
+    font-size: 16px; /* Smaller font size on smaller screens */
+  }
+}
